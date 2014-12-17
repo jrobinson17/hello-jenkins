@@ -9,6 +9,6 @@ app.get('/', function (req, res) {
 	//comment ewr
 });
  
-app.listen(process.env.PORT || 5000);
- 
+app.listen(process.env.PORT || 80);
+ //5000
 module.exports = app;
